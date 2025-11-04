@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      color: #222;
+    }
+
+    .projects a, .cv a {
+      display: inline-block;
+      margin: 0.5rem 1rem 0.5rem 0;
+      text-decoration: none;
+      color: #007acc;
+      border: 1px solid #007acc;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      transition: all 0.2s ease;
+    }
+
+    .projects a:hover, .cv a:hover {
+      background-color: #007acc;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Hi, I'm [Your Name]</h1>
+    <p>Welcome to my portfolio!</p>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a [your role, e.g. first-year pharmacy student / software developer / etc.] passionate about [your interests]. 
+        I enjoy working on projects that involve [briefly describe your skills or interests].
+      </p>
+    </section>
+
+    <section class="projects">
+      <h2>My Projects</h2>
+      <a href="https://github.com/yourusername/project1" target="_blank">Project 1</a>
+      <a href="https://github.com/yourusername/project2" target="_blank">Project 2</a>
+      <a href="https://github.com/yourusername/project3" target="_blank">Project 3</a>
+    </section>
+
+    <section class="cv">
+      <h2>My CV</h2>
+      <a href="AlfieCijoy.CV.pdf" target="_blank">View My Resume</a>
+      <!-- upload your cv.pdf to the repo root -->
+    </section>
+  </main>
+</body>
+</html>
